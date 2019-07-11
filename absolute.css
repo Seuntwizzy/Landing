@@ -1,0 +1,172 @@
+@charset "utf-8";
+/* author: Seunfunmi Bammeke */
+body{
+	background-color:#C9BEBE;
+}
+.bg-img{
+	background-image:url(images/Header.jpg);	
+	min-height: 500px;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:100%;
+	position:relative;
+}
+.container {
+	position:relative;
+	margin: 20px;
+	width:auto;
+}
+.landings {
+	float:left;
+	color:#BD0D10;
+	text-align:right;
+	padding:14px 16px;
+	display:inline-block;
+	text-decoration:none;
+	font-size:20px;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+.topnav a {
+	float:right;
+	color:#BD0D10;
+	margin:auto;
+	display:inline;
+	text-align:right;
+	padding:14px 16px;
+	text-decoration:none;
+	font-size:12px;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+.topnav a:hover {
+	background-color:#FBFBFB;
+	color:#BD0D10;
+}
+.message {
+	float:right;
+	color:#FFF9F9;
+	margin:auto;
+	display:inline-block;
+	text-align:center;
+	padding:70px 700px;
+	text-decoration:none;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+
+.button_all {
+  font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+  width: 180px;
+  text-align: center;
+  background: #F0E7E8;
+  display: inline-block;
+  border: none;
+  border-radius:40px;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 2;
+  padding: 0;
+}
+.button_all:hover {
+	color:#CF0D10;
+}
+.button_all:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background:#153173;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: inline-block;
+  transform: scaleY(0);
+  transform-origin: 100%;
+  transition-property: transform;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
+.product-card {
+	text-align:center;
+	border:thin;
+	margin:15px 0;
+	border-radius: 5%;
+	
+}
+.product-card:hover {
+	cursor:pointer;
+	-webkit-box-shadow:0px 0px 33px -3px rgba(209, 209, 209, 1);
+	-moz-box-shadow:0px 0px 33px -3px rgba(209, 209, 209, 1);
+	box-shadow:0px 0px 33px -3px rgba(209, 209, 209, 1);
+	transform:translateY(-5px);
+	transition:0.5s ease-out;
+}
+.title {
+	font size:14px;
+	padding-bottom:10px;
+}
+.price {
+	font-size:13px;
+	font-weight:600;
+}
+.info {
+	padding:3%;
+}
+
+.button_all:hover:before {
+  transform: scaleY(1);
+}
+.button a{
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+  width: 180px;
+  text-align: center;
+  background: #4318D4;
+  display: inline-block;
+  border: none;
+  border-radius:40px;
+  text-transform: uppercase;
+  position: relative;
+  padding: 10px;
+  color:#F8EBEC;
+  text-decoration:none;
+}
+.button a:hover {
+	color:#000000;
+}
+.bg-img1{
+	background-image:url(images/Emilia.jpg);	
+	min-height: 700px;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:100%;
+	position:relative;
+}
+.message1 {
+	float:right;
+	color:#FFF9F9;
+	font-weight:bold;
+	margin-top:50px;
+	margin-right:100px;
+	display:inline-block;
+	text-align:Center;
+	text-decoration:none;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+.copyright {
+  background: #090909;
+  font: 14px/100px "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+  color: #fefefe;
+  text-align: center;
+}
+.copyright a {
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #f6b60b;
+  text-decoration:none;
+}
+.copyright a:hover, .copyright a:focus {
+	color:#BC0C22;
+}
+ .copyright {
+    line-height: 26px;
+    padding: 10px 0;
+  }

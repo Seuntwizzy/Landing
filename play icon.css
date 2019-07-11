@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+.round-button {
+	float:right;
+	margin:auto;
+	box-sizing:border-box;
+	display:inline-block;
+	width:80px;
+	height:80px;
+	margin-top:200px;
+	margin-right:750px;
+	border: 6px solid #fff;
+	border-radius:50%;
+	color:#f5f5f5;
+	text-align:center;
+	text-decoration:none;
+	background-color:rgba(0,0,0,0.5);
+	font-size:20px;
+	font-weight:bold;
+}
+.roundbutton: hover {
+	background-color:rgba(0,0,0,0.8);
+	box-shadow:0px 0px 10px rgba(255,255,100,1);
+	text-shadow:0px 0px 10px rgba(255,255,100,1);
+}
